@@ -22,51 +22,109 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.main{
+
+    
+.main_section_one{
     background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
-    text-align: center;
-    
+
     /* container */
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-
 }
-.main_section_div{
+
+.main_section_one_div{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     align-items: flex-start;
+    gap: 1em;
+    align-items: center;    
 }
 
-.main_section_div_titulo{
+.main_section_one_div_titulo{
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     font-size: 1.75rem; 
+    font-weight: 700;
     text-align: center;
-    /* padding: 125px 0px 0px 100px;
-    width: 35%; */
-   
+    font-weight: 700;  
+    width: 75%; 
 }
-.main_section_div_buton_1{
+.main_section_one_div_buton_1{
     background-color: var(--cor-terciaria);
-    color: var(--cor-secundaria);
     border-radius: 8px;
-    padding: 1em;
-    text-decoration: none;
+    padding: 1em 8em;
+    display: block; 
+    
+    color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    font-weight: 480;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
     
 }
-.main_section_div_buton_2{
+
+.main_section_one_div_buton_2{
     border: 1px solid var(--cor-secundaria);
-    color: var(--cor-secundaria);
     border-radius: 8px;
-    padding: 1em;
-    text-decoration: none;
+    padding: 1em 9em;
+    display: block; 
+
+     
+
+    color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    font-weight: 480;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.main_section_one_div_img_combo{
+    margin: 0em 0em 1em 0em;
+    width: 50%;
+
+}
+.main_section_one_div_aviso{
+    color: var(--cor-quinária);
+    font-family: var(--fonte-primaria);
+    font-size: 0.75rem;
+}
+
+
+.main_section_two{
+    display: flex;
+    align-items: center;
+    
+}
+
+.main_section_two_img_plataformas{
+    width: 50%;
+    margin: 0em 5em;
+    gap: 1em;
+}
+
+
+.main_section_two_div{
+    margin: 0em 5em 0em 10em;
+    gap: 1em;
+    
+}
+.main_section_two_div_titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 3rem; 
+    font-weight: 700;
+    font-weight: 700;  
+    width: 75%;
+    
+}
+
+.main_section_two_div_p1{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    margin: 0.80em 0em;
 }
