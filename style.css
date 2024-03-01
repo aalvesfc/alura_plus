@@ -11,3 +11,14 @@
     --fonte-primaria:"Inter", sans-serif;
     /* --fonte-secundaria:"Krona One", sans-serif; */
 }
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.principal__titulo{
+    color: var(--cor-secundaria);
+    font-size: 1.75rem;
+    font-family: var(--fonte-primaria);
+
+}
