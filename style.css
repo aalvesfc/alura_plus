@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* variáveis globais CSS */
+:root{
+    --cor-primaria:#00030C;
+    --cor-secundaria:#FFFFFF;
+    --cor-terciaria:#167BF7;
+    --cor-quaternario:#EC2F46;
+    --cor-quinária:#C0C0C0;
+    /* --cor-hover:#3F4E4F; */
+
+    --fonte-primaria:"Inter", sans-serif;
+    /* --fonte-secundaria:"Krona One", sans-serif; */
+}
