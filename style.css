@@ -23,6 +23,7 @@ body{
     font-weight: 400;
 }
 
+/* sessão one */
     
 .main_section_one{
     background-image: url(./img/Background.png);
@@ -93,10 +94,10 @@ body{
     font-size: 0.75rem;
 }
 
-
+/* sessão two */
 .main_section_two{
     display: flex;
-    align-items: center;
+    align-items: center;   
     
 }
 
@@ -128,3 +129,101 @@ body{
     font-size: 1rem;
     margin: 0.80em 0em;
 }
+
+/* sessão three */
+.main_section_three{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+
+    margin: 2em 0em;
+}
+
+.main_section_three_div{
+    margin: 0em 5em 0em 10em;
+    gap: 1em;
+}
+
+.main_section_three_div_p1{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    margin: 0.80em 0em;
+}
+
+.main_section_three_div_buton{
+    background-color: var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 1em;
+    display: inline-block;
+    
+
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;  
+}
+.main_section_four{
+    margin: 5em 0em;
+}
+.main_section_four_titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 3rem; 
+    font-weight: 700;
+    text-align: center;
+    font-weight: 700;  
+    margin: 1em 0em;
+    
+}
+.main_section_four_dispositivo{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.list_item{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2rem; 
+    font-weight: 700;
+    text-align: center;
+    margin: 1em 0em;
+}
+
+.rodape{
+    text-align: center;
+    text-decoration: none;
+    margin: 5em;
+}
+
+.rodape_list_ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 1em;
+
+}
+.rodape_list_ul_li a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin: 1em;
+
+
+    font-family: var(--fonte-primaria);
+    font-size: 1rem; 
+    font-weight: 400;
+}
+.rodape_list_ul_li a:hover{
+    color: var(--cor-terciaria);
+}
+
+.infor{
+    font-family: var(--fonte-primaria);
+    font-size: 0,85rem; 
+    font-weight: 200;
+    margin: 1em;
+}
+
